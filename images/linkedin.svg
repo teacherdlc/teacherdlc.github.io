@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="77px" height="77px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SOCIAL-ICONS-SKETCH" transform="translate(-655.000000, -599.000000)" fill="#D8C763">
+            <g id="FULL-WHITE" transform="translate(140.000000, 597.000000)">
+                <path d="M553.53,2.13 C532.56,2.13 515.56,19.13 515.56,40.1 C515.56,61.06 532.56,78.06 553.53,78.06 C574.49,78.06 591.49,61.06 591.49,40.1 C591.49,19.13 574.49,2.13 553.53,2.13 L553.53,2.13 Z M537,34 L544,34 L544,57 L537,57 L537,34 Z M540.09,32 L540.04,32 C537.43,32 535.75,30.01 535.75,27.8 C535.75,25.55 537.48,23.72 540.14,23.72 C542.79,23.72 544.42,25.61 544.48,27.86 C544.48,30.07 542.79,32 540.09,32 L540.09,32 Z M573,57 L564,57 L564,45.35 C564,42.26 562.97,40.16 560.16,40.16 C558.02,40.16 556.78,41.58 556.22,42.95 C556.01,43.44 556,44.12 556,44.81 L556,57 L548.26,57 C548.26,57 548.36,36 548.26,34 L556,34 L556,37.93 C557,36.37 559.4,34.14 563.52,34.14 C568.63,34.14 573,37.41 573,44.47 L573,57 L573,57 Z" id="Linkedin"></path>
+            </g>
+        </g>
+    </g>
+</svg>

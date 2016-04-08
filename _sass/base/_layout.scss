@@ -1,0 +1,216 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header.site-header {
+  height: 61.875vh;
+  position: relative;
+  margin-bottom: $base-spacing;
+  @media screen and (min-width: 768px) {
+    height: 100vh;
+    width: 61.875%;
+    margin-bottom: 0;
+    float: left;
+  }
+  div.container {
+    background: url('../images/chalkboard.jpg') no-repeat center center;
+    background-size: cover;
+    height: 61.875vh;
+    @media screen and (min-width: 768px) {
+      height: 100%;
+      position: fixed;
+      width: 61.875%;
+    }
+  }
+  div.wrapper {
+    @include outer-container;
+    @media screen and (min-width: 768px) {
+      overflow: auto;
+      width: 100%;
+      margin: 0;
+    }
+    h1.site-title {
+      display: inline-block;
+      letter-spacing: 2px;
+      padding: $base-spacing;
+      a {
+        display: block;
+        width: 42px;
+        height: 48px;
+        text-indent: -999em;
+        background: url('../images/logo.png') no-repeat;
+        background-size: 100% auto;
+      }
+    }
+    section.bio {
+      color: white;
+      text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: $base-spacing;
+      text-align: center;
+      @media screen and (min-width: 768px) {
+        display: none;
+      }
+      h1 {
+        text-transform: uppercase;
+        margin-bottom: $base-spacing/4;
+      }
+      h2 {
+        font-size: modular-scale(0,16px);
+        margin-bottom: 0;
+        span.role {
+          display: block;
+        }
+        span.location {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+div.page-content {
+  @media screen and (min-width: 768px) {
+    width: 38.125%;
+    float: left;
+    padding: $base-spacing*2;
+  }
+  div.wrapper {
+    @include outer-container;
+    @media screen and (min-width: 768px) {
+      overflow: auto;
+      width: 100%;
+      margin: 0;
+    }
+    section.bio {
+      //padding: $base-spacing;
+      @include span-columns(10 of 12);
+      @include shift(1);
+      margin-bottom: $base-spacing;
+      text-align: center;
+      @media screen and (min-width: 768px) {
+        overflow: auto;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+      }
+      display: none;
+      @media screen and (min-width: 768px) {
+        display: block;
+      }
+      h1 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: $base-spacing/4;
+      }
+      h2 {
+        font-size: modular-scale(0,16px);
+        margin-bottom: 0;
+        span.role {
+          display: block;
+          color: #555;
+        }
+        span.location {
+          display: block;
+          color: #555;
+        }
+      }
+    }
+    section.about {
+      //padding: $base-spacing;
+      @include span-columns(10 of 12);
+      @include shift(1);
+      @media screen and (min-width: 480px) {
+        @include span-columns(8 of 12);
+        @include shift(2);
+      }
+      @media screen and (min-width: 640px) {
+        @include span-columns(6 of 12);
+        @include shift(3);
+      }
+      @media screen and (min-width: 768px) {
+        overflow: auto;
+        width: 100%;
+        margin: $base-spacing 0 0 0;
+      }
+      color: #555;
+      div.education {
+        margin-top: $base-spacing;
+        //@include span-columns(8 of 10);
+        //@include shift(1);
+        h2 {
+          text-transform: uppercase;
+          font-size: modular-scale(-2);
+          font-weight: 700;
+        }
+        span {
+          display: block;
+          font-size: modular-scale(-1);
+        }
+      }
+    }
+  }
+}
+
+footer.site-footer {
+  margin-top: $base-spacing;
+  margin-bottom: $base-spacing;
+  overflow: auto;
+  @media screen and (min-width: 768px) {
+    float: left;
+    width: 38.125%;
+  }
+  div.wrapper {
+    @media screen and (min-width: 768px) {
+      overflow: auto;
+    }
+    section.social {
+      @include span-columns(10 of 12);
+      @include shift(1);
+      @media screen and (min-width: 768px) {
+        width: 100%;
+        margin: 0;
+      }
+      ul {
+        overflow: auto;
+        text-align: center;
+        li {
+          display: inline-block;
+          vertial-align: baseline;
+          a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            background: #000;
+            text-indent: -999em;
+            margin: 8px;
+            &.twitter {
+              background: url('../images/twitter.svg') no-repeat center center;
+              background-size: 40px 40px;
+            }
+            &.instagram {
+              background: url('../images/instagram.svg') no-repeat center center;
+              background-size: 40px 40px;
+            }
+            &.facebook {
+              background: url('../images/facebook.svg') no-repeat center center;
+              background-size: 40px 40px;
+            }
+            &.linkedin {
+              background: url('../images/linkedin.svg') no-repeat center center;
+              background-size: 40px 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

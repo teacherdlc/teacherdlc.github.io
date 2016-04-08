@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="77px" height="77px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SOCIAL-ICONS-SKETCH" transform="translate(-269.000000, -597.000000)" fill="#D8C763">
+            <g id="FULL-WHITE" transform="translate(140.000000, 597.000000)">
+                <path d="M167.53,0.669 C146.56,0.669 129.56,17.669 129.56,38.639 C129.56,59.599 146.56,76.599 167.53,76.599 C188.49,76.599 205.49,59.599 205.49,38.639 C205.49,17.669 188.49,0.669 167.53,0.669 L167.53,0.669 Z M186,54.689 C186,55.809 185.45,57 184.34,57 L175,57 L175,43 L179.75,43 L180.47,37 L175,37 L175,33.419 C175,31.819 175.43,31 177.73,31 L181,31 L181,25.769 C180,25.699 178.45,25.549 176.42,25.549 C172.2,25.549 169,28.129 169,32.869 L169,37 L164,37 L164,43 L169,43 L169,57 L151.68,57 C150.56,57 150,55.809 150,54.689 L150,22.029 C150,20.909 150.56,20 151.68,20 L184.34,20 C185.45,20 186,20.909 186,22.029 L186,54.689 L186,54.689 Z" id="Facebook"></path>
+            </g>
+        </g>
+    </g>
+</svg>
